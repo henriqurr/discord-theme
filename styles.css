@@ -97,15 +97,19 @@
 	--primary-dark-660-rgb: 26,26,26;
 	--green-360: var(--status-positive-background); /* #43B581 */
 	
-	--background-primary: #111111;									/* #36393F */
-	--background-secondary: #161616;								/* #2F3136 */
-	--background-tertiary: #191919;									/* #202225 */
+	/* OLED */
+	--background-primary: black;									/* #36393F */
+	--background-secondary: black;								/* #2F3136 */
+	--background-tertiary: black;									/* #202225 */
+	--background-secondary-alt: black;							/* #292B2F */
+	--background-accent: black;									/* #4F545C */
+	--button-secondary-background: hsl(0 0% 10%) !important;
+	--activity-card-background: black;							/* #202225 */
+	--home-background: black !important;
+	
 	--bg-base-tertiary: #111111;									/* #232428 */
-	--background-accent: #1C1C1C;									/* #4F545C */
-	--background-secondary-alt: #1B1B1B;							/* #292B2F */
 	--background-floating: #202020;									/* #18191C */
 	--background-modifier-accent: #292929;							/* rgb(79 84 92 / 48%); */
-	--activity-card-background: #161616;							/* #202225 */
 	--channeltextarea-background: #1B1B1B;							/* #40444B */
 	--channels-default: #8E9297;									/* #8E9297 */
 	--modal-background: #212121;
